@@ -1,0 +1,62 @@
+name: coffecustomer
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutx:
+    path: ../flutx
+
+  provider: ^6.0.5
+  get_it: ^7.2.0
+
+  package_info_plus: ^3.0.2
+  cached_network_image: ^3.2.3
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  qr_flutter: ^4.0.0
+  carousel_slider: ^4.1.1
+
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.4
+  cloud_functions: ^4.0.7
+  cloud_firestore: ^4.3.1
+  firebase_remote_config: ^3.0.9
+  firebase_analytics: ^10.1.0
+
+  cupertino_icons: ^1.0.5
+  google_nav_bar: ^5.0.6
+  google_fonts: ^2.3.2
+  material_design_icons_flutter: ^6.0.7096
+  flutter_feather_icons: ^2.0.0+1
+  flutter_svg: ^0.23.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/lang/
+  fonts:
+    - family: Baloo2
+      fonts:
+        - asset: assets/fonts/Baloo2-Regular.ttf
+        - asset: assets/fonts/Baloo2-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Baloo2-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Baloo2-Bold.ttf
+          weight: 700
+
+
+
+
